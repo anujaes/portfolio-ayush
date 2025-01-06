@@ -16,6 +16,7 @@ function Footer() {
             <h1 className='poppins-light fs-2 pt-5'>Follow For More</h1>
             <p className='poppins-regular pt-4'>ayushbarua114@gmail.com &nbsp; | &nbsp;+91 9876 543 210</p>
             <div className="d-flex text-white pt-1">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a
                     style={{ textDecoration: 'none' }}
                     className='text-white'
@@ -23,6 +24,7 @@ function Footer() {
                 >
                     <i class="bi bi-instagram fs-5 me-3"></i>
                 </a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a
                     style={{ textDecoration: 'none' }}
                     className='text-white'
@@ -30,6 +32,7 @@ function Footer() {
                 >
                     <i class="bi bi-youtube fs-5 mx-3"></i>
                 </a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a
                     style={{ textDecoration: 'none' }}
                     className='text-white'
@@ -39,6 +42,7 @@ function Footer() {
                     {/* <i class="bi bi-envelope-fill fs-5 ms-3"></i> */}
                     <i class="bi bi-google fs-5 mx-3"></i>
                 </a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a
                     style={{ textDecoration: 'none' }}
                     className='text-white'

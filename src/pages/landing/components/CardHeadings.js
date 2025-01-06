@@ -14,6 +14,7 @@ function CardHeading(props) {
         >
             <h1 className="poppins-regular fs-2">{props.heading}</h1>
             <h5 className="poppins-light">{props.summary}</h5>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="explore-btn poppins-light">
                 Explore <i class="bi bi-arrow-right"></i>
             </a>

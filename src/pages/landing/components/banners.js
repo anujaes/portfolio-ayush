@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, {useState } from 'react';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import { Col, Image, Row } from 'react-bootstrap';
@@ -12,7 +12,7 @@ import 'swiper/css/effect-cards';
 import './styles.css';
 
 // import required modules
-import { EffectCards, Autoplay } from 'swiper/modules';
+// import { EffectCards, Autoplay } from 'swiper/modules';
 import { Container } from 'react-bootstrap';
 
 import I_1 from "../../../assets/banners/10.webp";

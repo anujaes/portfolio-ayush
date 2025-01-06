@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Container, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap';
+import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import '../styles/navbar.css'
 
 function ResponsiveNavBar({ topFixed, topStick }) {

@@ -1,10 +1,10 @@
 
-import { Col, Container, Row, Image } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import React from "react";
 import potrait from '../../assets/images/self.avif'
 import experience from "../../exports/experience";
 import "../../styles/about.css"
-import * as motion from "motion/react-client"
+// import * as motion from "motion/react-client"
 import ResponsiveNavBar from "../../common/navbar";
 
 function About() {

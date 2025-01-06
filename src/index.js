@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 // bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import ResponsiveNavBar from './common/navbar';
+// import ResponsiveNavBar from './common/navbar';
 import Footer from './common/Footer';
 
 

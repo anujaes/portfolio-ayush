@@ -20,6 +20,7 @@ const SegmentItem = ({ item }) => {
                         {
                             children: (
                                 <iframe
+                                    title="youtube_player"
                                     id={Date.now()}
                                     className="yt-iframe"
                                     src={`${item.source}&autoplay=1&mute=1&controls=0&loop=1&playlist=01cpW1SEqAc`}

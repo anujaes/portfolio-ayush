@@ -1,5 +1,3 @@
-import * as motion from "motion/react-client"
-import { Container } from "react-bootstrap";
 import React from "react";
 import brandsLogo from '../../exports/brands';
 import segments from "../../exports/segments";
