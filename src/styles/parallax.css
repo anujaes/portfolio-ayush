@@ -1,0 +1,86 @@
+:root {
+    --card_height: 50vh
+}
+
+/* Wrapper styles */
+.plx-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.plx-bannerBg {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    object-fit: contain !important;
+    height: var(--card_height);
+}
+
+.plx-Children {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    color: white;
+}
+
+.plx-parallaxChildren h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.yt-bannerBg {
+    position: absolute;
+    /* width: 100%; */
+    height: var(--card_height);
+    aspect-ratio: 16px / 9px;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-iframe {
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.brand-logo {
+    /* width: 150px;
+    height: 100px; */
+    width: 9.375rem;
+    height: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow:
+        7px 7px 1px rgba(2, 255, 238, 0.61),
+        -7px -7px 1px rgba(170, 10, 233, 0.553);
+}
+
+.brand-logo img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+    /* Maintains aspect ratio, fits within the box */
+}
